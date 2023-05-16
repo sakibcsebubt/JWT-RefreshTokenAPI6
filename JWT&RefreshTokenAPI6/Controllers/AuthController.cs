@@ -45,7 +45,7 @@ namespace JWT_RefreshTokenAPI6.Controllers
                     }
                     else
                     {
-                        return Ok(new StandardResponseModel { Status = false, StatusCode = 400, Massage = "Login UnSuccessFul" });
+                        return Ok(new StandardResponseModel { Status = false, StatusCode = 401, Massage = "Login UnSuccessFul" });
                     }
                 }
             }
